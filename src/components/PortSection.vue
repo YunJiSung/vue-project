@@ -11,8 +11,8 @@ import { portText } from "@/constants/index";
             <div class="port__wrap">
                 <div v-for="(text, key) in portText" :key="key" :class="['port__item p' + (key + 1)]">
                     <span class="num">{{ key + 1 }}.</span>
-                    <a :href="text.img" target="_blank">
-                        <img :src="portText.img" alt="포트폴리오 이미지">
+                    <a :href="text.img">
+                        <img :src="text.img" alt="포트폴리오 이미지">
                     </a>
                     <h3 class="title">{{ text.title }}</h3>
                     <p class="desc">
