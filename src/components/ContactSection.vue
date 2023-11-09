@@ -1,0 +1,162 @@
+<template>
+    <section id="contact">
+        <div class="contact__inner">
+            <h2 class="contact__title">Contact</h2>
+            <div class="contact__lines top" aria-hidden="true">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="contact__text">
+                <div class="text">
+                    <div>
+                        <a href="#">KAKAO : webstoryboy</a>
+                    </div>
+                    <div>
+                        <a href="#">KAKAO : webstoryboy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact__lines" aria-hidden="true">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+    </section>
+</template>
+
+<style lang="scss">
+#contact {
+    height: 100vh;
+}
+
+.contact__inner {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.contact__title {
+    font-size: 10vw;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 800;
+    text-indent: -0.5vw;
+    letter-spacing: -0.3vw;
+}
+
+.contact__text {
+    width: 100%;
+    height: 40vh;
+    color: var(--black);
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.contact__text .text {
+    font-size: 3vw;
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    transform: all 0.3s;
+    cursor: all-scroll;
+}
+
+.contact__lines {
+    width: 100%;
+}
+
+.contact__lines .line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--black);
+    margin-bottom: 0.5vw;
+
+}
+
+.contact__lines.top .line {
+    margin-top: 0.5vw;
+}
+
+.contact__lines.top .line:nth-child(1) {
+    height: 1px;
+}
+
+.contact__lines.top .line:nth-child(2) {
+    height: 2px;
+}
+
+.contact__lines.top .line:nth-child(3) {
+    height: 3px;
+}
+
+.contact__lines.top .line:nth-child(4) {
+    height: 4px;
+}
+
+.contact__lines.top .line:nth-child(5) {
+    height: 5px;
+}
+
+.contact__lines.top .line:nth-child(6) {
+    height: 6px;
+}
+
+.contact__lines.top .line:nth-child(7) {
+    height: 7px;
+}
+
+.contact__lines .line {
+    margin-top: 0.5vw;
+}
+
+.contact__lines .line:nth-child(1) {
+    height: 7px;
+}
+
+.contact__lines .line:nth-child(2) {
+    height: 6px;
+}
+
+.contact__lines .line:nth-child(3) {
+    height: 5px;
+}
+
+.contact__lines .line:nth-child(4) {
+    height: 4px;
+}
+
+.contact__lines .line:nth-child(5) {
+    height: 3px;
+}
+
+.contact__lines .line:nth-child(6) {
+    height: 2px;
+}
+
+.contact__lines .line:nth-child(7) {
+    height: 1px;
+}
+</style>

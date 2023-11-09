@@ -17,3 +17,7 @@ PS C:\Users\line\Desktop\WEBS1111> cd vue-project
 PS C:\Users\line\Desktop\WEBS1111\vue-project> npm install
 PS C:\Users\line\Desktop\WEBS1111\vue-project> npm run format
 PS C:\Users\line\Desktop\WEBS1111\vue-project> npm run dev
+
+gsap 설치: `npm install gsap`
+sass 설치: `npm install sass`
+lenis 설치: `npm install @studio-freight/lenis`
