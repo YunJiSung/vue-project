@@ -185,7 +185,7 @@
     width: 15vw;
     height: 15vw;
     /* padding: 10vw 0; */
-    background-image: url(../../img/image1.jpg);
+    background-image: url(../assets/img/image1.jpg);
     background-size: cover;
     background-position: center center;
     border-radius: 50%;

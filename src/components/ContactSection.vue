@@ -1,8 +1,12 @@
+<script setup>
+import { contactText } from "@/constants/index"
+</script>
+
 <template>
     <section id="contact">
         <div class="contact__inner">
             <h2 class="contact__title">Contact</h2>
-            <div class="contact__lines top" aria-hidden="true">
+            <div class="contact__line" aria-hidden="true">
                 <span class="line"></span>
                 <span class="line"></span>
                 <span class="line"></span>
@@ -13,15 +17,12 @@
             </div>
             <div class="contact__text">
                 <div class="text">
-                    <div>
-                        <a href="#">KAKAO : webstoryboy</a>
-                    </div>
-                    <div>
-                        <a href="#">KAKAO : webstoryboy</a>
+                    <div v-for="(contact, key) in contactText" :key="key">
+                        <a href={{contact.link}}>{{ contact.title }}</a>
                     </div>
                 </div>
             </div>
-            <div class="contact__lines" aria-hidden="true">
+            <div class="contact__lines" aria-hidden="false">
                 <span class="line"></span>
                 <span class="line"></span>
                 <span class="line"></span>
